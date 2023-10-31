@@ -21,6 +21,10 @@
 }
 .flip-card:hover .flip-card-inner{
     transform: rotateY(-180deg);
+ 
+}
+.flip-card .flip-card-inner{
+    
     transition: transform 1.5s ease;
     transform-style: preserve-3d;
 }
